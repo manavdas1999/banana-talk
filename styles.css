@@ -1,5 +1,9 @@
 
-
+small{
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+}
 
 textarea{
     display: block;
@@ -7,4 +11,15 @@ textarea{
     height: 20vh;
     margin: 1rem;
     padding: 1rem;
+}
+
+.output-head{
+    font-size: 20px;
+}
+#output{
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+    width: 60vw;
+    height: 20vh;
 }
