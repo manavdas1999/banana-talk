@@ -11,6 +11,7 @@ body{
     font-family: 'Kalam', cursive;
     margin: auto;
     font-size: 18px;
+    height: 100%;
 }
 
 
@@ -27,9 +28,11 @@ body{
 
 .main{
     max-width: 600px;
-    min-height: max-content;
-    margin: auto;
+    margin: 0 auto;
     padding: 1rem;
+    padding-bottom: 2rem;
+    overflow: auto;
+
 }
 
 .guide-text h2{
@@ -76,8 +79,7 @@ body{
 }
 
 .footer{
-    position: absolute;
-    bottom: 0;
+    position:relative;
     width: 100%;    
     height: fit-content;
     background-color: #F2C94C;
