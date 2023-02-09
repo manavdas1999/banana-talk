@@ -22,11 +22,12 @@ body{
 
 .nav h1{
     font-size: 38px;
-    padding: 0.8rem 0;
+    padding: 0.5rem 0;
 }
 
 .main{
     max-width: 600px;
+    min-height: max-content;
     margin: auto;
     padding: 1rem;
 }
@@ -75,9 +76,10 @@ body{
 }
 
 .footer{
-    position: relative;
+    position: absolute;
     bottom: 0;
     width: 100%;    
+    height: fit-content;
     background-color: #F2C94C;
     text-align: center;
 }
